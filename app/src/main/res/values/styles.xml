@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Header">
+        <item name="android:textColor">?attr/headerColorMain</item>
+    </style>
+
+    <style name="Header.Small">
+        <item name="android:textSize">@dimen/small_header</item>
+    </style>
+
+    <style name="Header.Medium">
+        <item name="android:textSize">@dimen/medium_header</item>
+    </style>
+
+    <style name="ToolbarTextAppearance">
+        <item name="android:textSize">64sp</item>
+        <item name="android:textColor">#112233</item>
+        <item name="android:textStyle">italic</item>
+        <item name="font">@font/astral_sisters</item>
+    </style>
+
+    <style name="SmallishShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">32dp</item>
+        <item name="cornerFamily">cut</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/teal_200</item>
+    </style>
+
+</resources>
